@@ -88,26 +88,27 @@
     }
 }
 
-.Marquee-box {
+/* TEXT BERJALAN */
+.container {
     width: 100%;
+    height: 50px;
+    /* Sesuaikan dengan tinggi yang Anda inginkan */
     overflow: hidden;
-    white-space: nowrap;
     border: 1px solid #ccc;
+    /* Atur border sesuai keinginan */
+    border-radius: 5px;
+    /* Tambahkan radius border jika diinginkan */
+}
+
+marquee {
+    font-size: 20px;
+    /* Atur ukuran font */
+    color: #fff;
+    /* Atur warna teks */
+    background-color: #3498db;
+    /* Atur warna latar belakang */
     padding: 10px;
-}
-
-.MyMarquee {
-    animation: marquee 20s linear infinite;
-}
-
-@keyframes marquee {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
+    /* Sesuaikan padding jika diperlukan */
 }
 
 #telegramButton {
