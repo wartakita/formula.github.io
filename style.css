@@ -88,23 +88,60 @@
     }
 }
 
-#telegramButton {
-    margin-top: 20px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: linear-gradient(to right, #3498db, #ff8c00);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+marquee {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+}
+
+.countdown {
+    background-color: #3498db;
+    color: #fff;
     text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+}
+
+#telegramButton {
+    text-align: center;
+    margin-top: 20px;
 }
 
 #telegramButton button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #0088cc;
+    background-color: #3498db;
     color: #fff;
     border: none;
+    padding: 10px 20px;
+    font-size: 16px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 #telegramButton button:hover {
-    background-color: #005580;
+    background-color: #2980b9;
 }
 
 </style>
